@@ -1,4 +1,3 @@
-#ifndef MYVECTOR_H
 #define MYVECTOR_H
 
 #include <iostream>
@@ -217,5 +216,3 @@ public:
         return !(*this == other);
     }
 };
-
-#endif
