@@ -27,7 +27,6 @@ int main() {
     for (int i = 0; i < N; ++i) sum1 += myvec[i];
     end = std::chrono::high_resolution_clock::now();
     my_time = std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count();
-    
     start = std::chrono::high_resolution_clock::now();
     long long sum2 = 0;
     for (int i = 0; i < N; ++i) sum2 += stdvec[i];
